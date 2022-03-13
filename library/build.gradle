@@ -1,0 +1,14 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 28
+    }
+}
+
+// New version can be uploaded with 'gradlew clean :library:jar :library:uploadArchives'
+apply from: 'gradle-mvn-push.gradle'

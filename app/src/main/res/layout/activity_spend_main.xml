@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpendMainActivity">
+
+    <com.example.bgg89.travelmaker_project.MergedView
+        android:id="@+id/mergedV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="85dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="현재 예산"
+            android:gravity="center"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="2dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView1" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spinner1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            app:layout_constraintRight_toLeftOf="@id/currency1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/spinner2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="KRW"
+            app:layout_constraintRight_toLeftOf="@+id/currency2"
+            app:layout_constraintTop_toBottomOf="@+id/spinner1" />
+
+        <EditText
+            android:id="@+id/currency1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintRight_toLeftOf="@id/convertBtn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/currency2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:ems="10"
+            android:gravity="center"
+            app:layout_constraintRight_toLeftOf="@id/convertBtn"
+            app:layout_constraintTop_toBottomOf="@+id/currency1" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/convertBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/converter"
+            android:backgroundTint="#aaa"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plus"
+        app:backgroundTint="#ffff"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

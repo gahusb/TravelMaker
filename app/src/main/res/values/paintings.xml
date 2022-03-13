@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="paintings_titles">
+        <item>일정관리</item>
+        <item>지출내역관리</item>
+        <item>카메라</item>
+        <item>지도</item>
+    </string-array>
+
+    <!--<string-array name="paintings_years">-->
+        <!--<item>1889</item>-->
+        <!--<item>1888</item>-->
+        <!--<item>1888</item>-->
+        <!--<item>1888</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="paintings_location">-->
+        <!--<item>Museum of Modern Art, New York City</item>-->
+        <!--<item>Kroller-Muller Museum, Otterlo</item>-->
+        <!--<item>Musee d\'Orsay, Paris</item>-->
+        <!--<item>National Gallery, London</item>-->
+    <!--</string-array>-->
+
+    <string-array name="paintings_images">
+        <item>@drawable/schedule</item>
+        <item>@drawable/payment</item>
+        <item>@drawable/camera</item>
+        <item>@drawable/map</item>
+    </string-array>
+</resources>

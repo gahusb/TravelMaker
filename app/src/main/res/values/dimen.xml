@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+
+    <string name="text_home">Home Fragment</string>
+    <string name="text_notifications">Notifications Fragment</string>
+    <string name="text_search">Search Fragment</string>
+
+    <string name="menu_home">Home</string>
+    <string name="wallet">Wallet</string>
+    <string name="menu_notifications">Notifications</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

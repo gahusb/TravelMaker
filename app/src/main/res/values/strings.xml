@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TravelMaker</string>
+    <string name="year">Year</string>
+    <string name="location">Location</string>
+
+    <string name="default_text">Flight</string>
+    <string name="planning_button">Scheduling</string>
+    <string name="default_subtext">Click to arrange schedule!!</string>
+
+    <string name="convert">Convert</string>
+    <string name="empty_value">Empty value!</string>
+    <string name="sam_cur">Same currency!</string>
+
+    <string name="str_btn_find">내 위치</string>
+    <string name="hnt_et_location">Enter location</string>
+</resources>
